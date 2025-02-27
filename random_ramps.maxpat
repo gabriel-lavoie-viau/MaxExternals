@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
+			"minor" : 6,
 			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -167,7 +167,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 26.0, 262.0, 79.0, 22.0 ],
 					"text" : "random 1000"
 				}
@@ -177,11 +177,11 @@
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 26.0, 227.0, 100.0, 22.0 ],
-					"text" : "randomBangs #1"
+					"patching_rect" : [ 26.0, 227.0, 105.0, 22.0 ],
+					"text" : "random_bangs #1"
 				}
 
 			}
@@ -265,8 +265,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "randomBangs.maxpat",
-				"bootpath" : "~/Documents/MaxMSP/HomeMadeExternals",
+				"name" : "random_bangs.maxpat",
+				"bootpath" : "~/Documents/GitHub/MaxExternals",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
