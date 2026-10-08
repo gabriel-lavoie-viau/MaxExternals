@@ -3,40 +3,57 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>10K549</string>
+	<string>23H420</string>
+	<key>C74ObjectProperties</key>
+	<dict>
+		<key>c74excludefromcollectives</key>
+		<string>no</string>
+	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>sigmund~</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.cycling74.sigmund-</string>
+	<string>vboehm.net.sigmund-</string>
 	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.1.4</string>
+	<string>6.0</string>
 	<key>CFBundleLongVersionString</key>
-	<string>sigmund~ 6.1.4, Copyright 2013 Cycling '74</string>
+	<string>sigmund~ 1.1.4 - Copyright (c) 2021 vboehm</string>
 	<key>CFBundlePackageType</key>
 	<string>iLaX</string>
 	<key>CFBundleShortVersionString</key>
-	<string>6.1.4</string>
+	<string>1.1.4</string>
 	<key>CFBundleSignature</key>
 	<string>max2</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
 	<key>CFBundleVersion</key>
-	<string>6.1.4</string>
+	<string>1.1.4</string>
 	<key>CSResourcesFileMapped</key>
 	<true/>
 	<key>DTCompiler</key>
-	<string></string>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>10M2518</string>
-	<key>DTPlatformVersion</key>
-	<string>PG</string>
-	<key>DTSDKBuild</key>
-	<string>10K549</string>
-	<key>DTSDKName</key>
 	<string></string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>14.5</string>
+	<key>DTSDKBuild</key>
+	<string>23F73</string>
+	<key>DTSDKName</key>
+	<string>macosx14.5</string>
 	<key>DTXcode</key>
-	<string>0400</string>
+	<string>1540</string>
 	<key>DTXcodeBuild</key>
-	<string>10M2518</string>
+	<string>15F31d</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.11</string>
+	<key>LSRequiresCarbon</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright (c) 2021 vboehm</string>
 </dict>
 </plist>
